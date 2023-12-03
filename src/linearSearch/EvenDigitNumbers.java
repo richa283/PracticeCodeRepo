@@ -2,7 +2,7 @@ package linearSearch;
 
 public class EvenDigitNumbers {
 
-	public static int findNumbers(int[] nums) {
+	public int findNumbers(int[] nums) {
 		
 		int count = 0;
 		for(int num : nums) {
@@ -20,8 +20,9 @@ public class EvenDigitNumbers {
 	}
 	
 	public static void main(String[] args) {
+		EvenDigitNumbers solution = new EvenDigitNumbers();
 		int[] nums = {12, 365, 2, 62, 87};
-		int result = findNumbers(nums);
+		int result = solution.findNumbers(nums);
 		System.out.println("The count of numbers with even digits is: "+result);
 		
 	}
