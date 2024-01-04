@@ -19,7 +19,7 @@ class Solution {
         }
         return count;
     }
-
+    //main method
     public static void main(String[] args) {
         Solution solution = new Solution();
         String[] bank = {
